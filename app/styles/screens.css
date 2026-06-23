@@ -4,14 +4,14 @@
 }
 
 .home-header {
-  background: var(--mp-blue);
+  background: var(--mp-yellow);
   padding: 0 20px 24px;
-  color: white;
+  color: var(--text-primary);
 }
 
 .home-header .status-bar .time,
 .home-header .status-bar .status-icons {
-  color: white;
+  color: var(--text-primary);
 }
 
 .home-greeting {
@@ -50,14 +50,14 @@
   align-items: center;
   justify-content: center;
   border-radius: 50%;
-  background: rgba(255,255,255,0.2);
+  background: rgba(0,0,0,0.1);
   font-size: 14px;
   cursor: pointer;
   transition: all 0.15s;
 }
 
 .eye-btn:active {
-  background: rgba(255,255,255,0.3);
+  background: rgba(0,0,0,0.15);
   transform: scale(0.92);
 }
 
