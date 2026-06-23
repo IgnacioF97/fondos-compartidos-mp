@@ -1,0 +1,58 @@
+<div class="screen" style="background:white">
+  <div class="status-bar" style="padding:0 28px 8px">
+    <span class="time">9:41</span>
+    <div class="status-icons">
+      <svg width="17" height="12" viewBox="0 0 17 12" fill="#1A1A2E"><rect x="0" y="3" width="3" height="9" rx="1"/><rect x="4.5" y="2" width="3" height="10" rx="1"/><rect x="9" y="0.5" width="3" height="11.5" rx="1"/><rect x="13.5" y="0" width="3" height="12" rx="1" opacity="0.3"/></svg>
+      <svg width="25" height="12" viewBox="0 0 25 12" fill="none"><rect x="0" y="1" width="21" height="10" rx="3" stroke="#1A1A2E" stroke-width="1.5"/><rect x="1.5" y="2.5" width="16" height="7" rx="1.5" fill="#1A1A2E"/><rect x="21.5" y="4" width="2" height="4" rx="1" fill="#1A1A2E" opacity="0.4"/></svg>
+    </div>
+  </div>
+
+  <div class="screen-content">
+    <div style="padding:28px 20px 24px;text-align:center">
+      <div class="success-circle blue" style="margin-bottom:16px">
+        <svg class="checkmark-svg" viewBox="0 0 52 52">
+          <circle class="checkmark-circle blue" cx="26" cy="26" r="25"/>
+          <path class="checkmark-check blue" fill="none" d="M14.1 27.2l7.1 7.2 16.7-16.8"/>
+        </svg>
+      </div>
+
+      <div style="font-size:28px;font-weight:800;color:var(--text-primary);margin-bottom:4px">Pago realizado</div>
+      <div class="pago-commerce">Restaurante El Patagónico</div>
+      <div class="pago-amount-big">$8.400</div>
+    </div>
+
+    <div style="padding:0 16px;margin-bottom:16px">
+      <div class="card confirm-card">
+        <div class="confirm-row">
+          <span class="confirm-row-label">Desde</span>
+          <span class="confirm-row-value">Fondo "Viaje a Bariloche 🏔️"</span>
+        </div>
+        <div class="confirm-row">
+          <span class="confirm-row-label">Dividido entre</span>
+          <span class="confirm-row-value">4 personas</span>
+        </div>
+        <div class="confirm-row">
+          <span class="confirm-row-label">Le toca a cada uno</span>
+          <span class="confirm-row-value" id="por-persona" style="color:var(--mp-blue);font-weight:800">$2.100</span>
+        </div>
+        <div class="confirm-row">
+          <span class="confirm-row-label">Estado</span>
+          <span class="confirm-row-value" style="color:var(--mp-green);font-weight:700">✓ Registrado</span>
+        </div>
+      </div>
+    </div>
+
+    <div class="info-note" style="margin:0 16px 16px">
+      📢 Este gasto quedó registrado para todos los participantes del fondo automáticamente.
+    </div>
+  </div>
+
+  <div class="pago-actions">
+    <button class="btn-secondary" id="ver-detalle-btn" style="display:flex;align-items:center;justify-content:center;gap:8px">
+      📋 Ver detalle del gasto
+    </button>
+    <button class="btn-primary" id="volver-fondo-pago" style="display:flex;align-items:center;justify-content:center;gap:8px">
+      ← Volver al fondo
+    </button>
+  </div>
+</div>

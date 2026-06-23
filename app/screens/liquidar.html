@@ -1,0 +1,47 @@
+<div class="screen">
+  <div style="background:white">
+    <div class="status-bar" style="padding:0 28px 8px">
+      <span class="time">9:41</span>
+      <div class="status-icons">
+        <svg width="17" height="12" viewBox="0 0 17 12" fill="#1A1A2E"><rect x="0" y="3" width="3" height="9" rx="1"/><rect x="4.5" y="2" width="3" height="10" rx="1"/><rect x="9" y="0.5" width="3" height="11.5" rx="1"/><rect x="13.5" y="0" width="3" height="12" rx="1" opacity="0.3"/></svg>
+        <svg width="25" height="12" viewBox="0 0 25 12" fill="none"><rect x="0" y="1" width="21" height="10" rx="3" stroke="#1A1A2E" stroke-width="1.5"/><rect x="1.5" y="2.5" width="16" height="7" rx="1.5" fill="#1A1A2E"/><rect x="21.5" y="4" width="2" height="4" rx="1" fill="#1A1A2E" opacity="0.4"/></svg>
+      </div>
+    </div>
+    <div class="screen-header">
+      <button class="back-btn" data-back>
+        <svg viewBox="0 0 24 24" fill="none" stroke="#1A1A2E" stroke-width="2.5" stroke-linecap="round"><path d="M15 18l-6-6 6-6"/></svg>
+      </button>
+      <div class="header-title">Liquidar fondo</div>
+      <div style="width:36px"></div>
+    </div>
+  </div>
+
+  <div class="screen-content">
+    <div class="liquidar-header-card card-blue" style="margin:16px">
+      <div style="font-size:14px;font-weight:600;color:var(--mp-blue);margin-bottom:4px">💡 Plan de liquidación</div>
+      <div style="font-size:13px;color:var(--mp-blue-dark);line-height:1.5">Calculamos el mínimo de transferencias para que todos queden en cero y nadie pierda tiempo.</div>
+    </div>
+
+    <div id="transfer-list" class="transfer-list">
+      <!-- rendered by interactions.js -->
+    </div>
+
+    <div class="recv-card card-green">
+      <div class="recv-label">💚 Vas a recibir en tu cuenta de MP</div>
+      <div class="recv-amount" id="recv-amount">$15.700</div>
+      <div style="font-size:12px;color:var(--mp-green);margin-top:4px;opacity:0.8">Se acreditará en segundos</div>
+    </div>
+
+    <div style="padding:8px 16px 12px">
+      <p style="font-size:12px;color:var(--text-muted);text-align:center;line-height:1.5">
+        Cada participante recibirá una notificación para aprobar la transferencia.
+      </p>
+    </div>
+  </div>
+
+  <div class="btn-area" style="background:white;border-top:1px solid var(--border-color)">
+    <button class="btn-primary" id="liquidar-ahora-btn" style="font-size:17px;background:var(--mp-green)">
+      💸 Liquidar ahora
+    </button>
+  </div>
+</div>

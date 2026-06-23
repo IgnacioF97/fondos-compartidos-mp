@@ -1,0 +1,60 @@
+<div class="screen" style="background:white">
+  <div class="status-bar" style="padding:0 28px 8px">
+    <span class="time">9:41</span>
+    <div class="status-icons">
+      <svg width="17" height="12" viewBox="0 0 17 12" fill="#1A1A2E"><rect x="0" y="3" width="3" height="9" rx="1"/><rect x="4.5" y="2" width="3" height="10" rx="1"/><rect x="9" y="0.5" width="3" height="11.5" rx="1"/><rect x="13.5" y="0" width="3" height="12" rx="1" opacity="0.3"/></svg>
+      <svg width="25" height="12" viewBox="0 0 25 12" fill="none"><rect x="0" y="1" width="21" height="10" rx="3" stroke="#1A1A2E" stroke-width="1.5"/><rect x="1.5" y="2.5" width="16" height="7" rx="1.5" fill="#1A1A2E"/><rect x="21.5" y="4" width="2" height="4" rx="1" fill="#1A1A2E" opacity="0.4"/></svg>
+    </div>
+  </div>
+
+  <div class="screen-content">
+    <div style="padding:32px 20px 28px;text-align:center;background:white">
+      <div class="success-circle" style="margin-bottom:16px">
+        <svg class="checkmark-svg" viewBox="0 0 52 52">
+          <circle class="checkmark-circle" cx="26" cy="26" r="25"/>
+          <path class="checkmark-check" fill="none" d="M14.1 27.2l7.1 7.2 16.7-16.8"/>
+        </svg>
+      </div>
+      <div style="font-size:28px;font-weight:800;color:var(--text-primary);margin-bottom:4px">¡Listo!</div>
+      <div style="font-size:16px;color:var(--text-secondary)">
+        Cargaste <strong id="carga-monto">$15.000</strong> al fondo
+      </div>
+    </div>
+
+    <div style="padding:0 16px;margin-bottom:16px">
+      <div class="card confirm-card">
+        <div class="confirm-row">
+          <span class="confirm-row-label">Desde</span>
+          <span class="confirm-row-value">Mi saldo en MP</span>
+        </div>
+        <div class="confirm-row">
+          <span class="confirm-row-label">Para</span>
+          <span class="confirm-row-value">Viaje a Bariloche 🏔️</span>
+        </div>
+        <div class="confirm-row">
+          <span class="confirm-row-label">Nuevo saldo del fondo</span>
+          <span class="confirm-row-value" id="nuevo-saldo" style="color:var(--mp-green);font-size:17px;font-weight:800">$42.500</span>
+        </div>
+        <div class="confirm-row">
+          <span class="confirm-row-label">Fecha y hora</span>
+          <span class="confirm-row-value">Hoy, 9:41 AM</span>
+        </div>
+      </div>
+    </div>
+
+    <div style="padding:0 16px 8px">
+      <div class="card-blue" style="font-size:13px;color:var(--mp-blue-dark)">
+        💡 <strong>María, Juan y Ana</strong> también cargaron dinero al fondo. ¡Ya tienen $42.500 para el viaje!
+      </div>
+    </div>
+  </div>
+
+  <div class="btn-area">
+    <button class="btn-primary" id="volver-fondo">
+      Volver al fondo
+    </button>
+    <button style="display:block;width:100%;padding:12px;text-align:center;color:var(--mp-blue);font-size:14px;font-weight:600;background:none;border:none;cursor:pointer;margin-top:4px">
+      Ver comprobante
+    </button>
+  </div>
+</div>

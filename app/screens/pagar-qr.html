@@ -1,0 +1,67 @@
+<div class="screen qr-screen">
+  <div class="qr-header">
+    <div class="status-bar">
+      <span class="time" style="color:white">9:41</span>
+      <div class="status-icons" style="color:white">
+        <svg width="17" height="12" viewBox="0 0 17 12" fill="white"><rect x="0" y="3" width="3" height="9" rx="1"/><rect x="4.5" y="2" width="3" height="10" rx="1"/><rect x="9" y="0.5" width="3" height="11.5" rx="1"/><rect x="13.5" y="0" width="3" height="12" rx="1" opacity="0.4"/></svg>
+        <svg width="25" height="12" viewBox="0 0 25 12" fill="none"><rect x="0" y="1" width="21" height="10" rx="3" stroke="white" stroke-width="1.5"/><rect x="1.5" y="2.5" width="16" height="7" rx="1.5" fill="white"/><rect x="21.5" y="4" width="2" height="4" rx="1" fill="white" opacity="0.5"/></svg>
+      </div>
+    </div>
+    <div style="display:flex;align-items:center;gap:12px;padding-bottom:12px">
+      <button class="back-btn" data-back>
+        <svg viewBox="0 0 24 24" fill="none" stroke="white" stroke-width="2.5" stroke-linecap="round"><path d="M15 18l-6-6 6-6"/></svg>
+      </button>
+      <div style="flex:1;font-size:17px;font-weight:700;color:white;text-align:center">Pagar con el fondo</div>
+      <div style="width:36px"></div>
+    </div>
+  </div>
+
+  <div class="qr-pill">
+    <div class="qr-pill-dot"></div>
+    <span>Pagando desde:</span>
+    <strong style="color:white">Viaje a Bariloche 🏔️</strong>
+  </div>
+
+  <div class="qr-viewfinder">
+    <div class="qr-grid"></div>
+    <div class="qr-corner tl"></div>
+    <div class="qr-corner tr"></div>
+    <div class="qr-corner bl"></div>
+    <div class="qr-corner br"></div>
+    <div class="scan-line"></div>
+
+    <!-- Fake QR code in center -->
+    <div style="position:absolute;top:50%;left:50%;transform:translate(-50%,-50%);opacity:0.15">
+      <svg width="100" height="100" viewBox="0 0 100 100" fill="white">
+        <rect x="10" y="10" width="30" height="30" rx="4" fill="none" stroke="white" stroke-width="4"/>
+        <rect x="17" y="17" width="16" height="16" fill="white"/>
+        <rect x="60" y="10" width="30" height="30" rx="4" fill="none" stroke="white" stroke-width="4"/>
+        <rect x="67" y="17" width="16" height="16" fill="white"/>
+        <rect x="10" y="60" width="30" height="30" rx="4" fill="none" stroke="white" stroke-width="4"/>
+        <rect x="17" y="67" width="16" height="16" fill="white"/>
+        <rect x="60" y="60" width="8" height="8" fill="white"/>
+        <rect x="72" y="60" width="8" height="8" fill="white"/>
+        <rect x="84" y="60" width="6" height="6" fill="white"/>
+        <rect x="60" y="72" width="8" height="8" fill="white"/>
+        <rect x="72" y="72" width="6" height="6" fill="white"/>
+        <rect x="60" y="84" width="6" height="6" fill="white"/>
+        <rect x="70" y="84" width="6" height="6" fill="white"/>
+        <rect x="84" y="84" width="6" height="6" fill="white"/>
+      </svg>
+    </div>
+  </div>
+
+  <div class="qr-instruction">
+    Apuntá la cámara al código QR del comercio
+  </div>
+
+  <div class="qr-saldo">
+    Saldo disponible en el fondo: <strong>$42.500</strong>
+  </div>
+
+  <div style="padding:0 20px 24px">
+    <button class="btn-secondary" id="manual-btn" style="background:rgba(255,255,255,0.12);color:white;border:1px solid rgba(255,255,255,0.25)">
+      Ingresar monto manualmente
+    </button>
+  </div>
+</div>

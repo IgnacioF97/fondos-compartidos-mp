@@ -1,0 +1,68 @@
+<div class="screen" style="background:white;position:relative;overflow:hidden">
+  <div class="confetti-container"></div>
+
+  <div class="status-bar" style="padding:0 28px 8px">
+    <span class="time">9:41</span>
+    <div class="status-icons">
+      <svg width="17" height="12" viewBox="0 0 17 12" fill="#1A1A2E"><rect x="0" y="3" width="3" height="9" rx="1"/><rect x="4.5" y="2" width="3" height="10" rx="1"/><rect x="9" y="0.5" width="3" height="11.5" rx="1"/><rect x="13.5" y="0" width="3" height="12" rx="1" opacity="0.3"/></svg>
+      <svg width="25" height="12" viewBox="0 0 25 12" fill="none"><rect x="0" y="1" width="21" height="10" rx="3" stroke="#1A1A2E" stroke-width="1.5"/><rect x="1.5" y="2.5" width="16" height="7" rx="1.5" fill="#1A1A2E"/><rect x="21.5" y="4" width="2" height="4" rx="1" fill="#1A1A2E" opacity="0.4"/></svg>
+    </div>
+  </div>
+
+  <div class="screen-content">
+    <div class="success-header" style="padding-top:24px">
+      <div class="success-circle">
+        <svg class="checkmark-svg" viewBox="0 0 52 52">
+          <circle class="checkmark-circle" cx="26" cy="26" r="25"/>
+          <path class="checkmark-check" fill="none" d="M14.1 27.2l7.1 7.2 16.7-16.8"/>
+        </svg>
+      </div>
+      <div class="success-title">¡Fondo creado!</div>
+      <div class="success-subtitle">Ya podés invitar a tu grupo</div>
+    </div>
+
+    <div style="padding:0 20px;margin-bottom:16px">
+      <div class="card">
+        <div style="display:flex;align-items:center;gap:12px;margin-bottom:12px">
+          <div style="width:48px;height:48px;background:var(--mp-blue-light);border-radius:12px;display:flex;align-items:center;justify-content:center;font-size:24px">✈️</div>
+          <div>
+            <div style="font-size:17px;font-weight:700;color:var(--text-primary)">Viaje a Bariloche 🏔️</div>
+            <div style="font-size:13px;color:var(--text-muted)">Fondo de viaje</div>
+          </div>
+        </div>
+        <div style="display:flex;align-items:center;gap:8px;padding:10px 12px;background:var(--bg-page);border-radius:8px">
+          <div class="avatar" style="background:#009EE3;width:28px;height:28px;font-size:11px">IG</div>
+          <span style="font-size:13px;color:var(--text-secondary)">Admin: <strong style="color:var(--text-primary)">Ignacio</strong></span>
+          <span style="margin-left:auto;background:var(--mp-blue-light);color:var(--mp-blue);font-size:11px;font-weight:700;padding:2px 8px;border-radius:6px">NUEVO</span>
+        </div>
+      </div>
+    </div>
+
+    <div class="divider"></div>
+
+    <div class="share-section">
+      <div class="share-title">Invitá a tu grupo</div>
+      <p style="font-size:13px;color:var(--text-muted);margin-bottom:12px">Compartí el link y que todos se sumen</p>
+
+      <button class="btn-green" id="whatsapp-btn" style="display:flex;align-items:center;justify-content:center;gap:8px">
+        <span>📱</span> Compartir por WhatsApp
+      </button>
+
+      <button class="btn-secondary" id="copy-btn" style="display:flex;align-items:center;justify-content:center;gap:8px">
+        <span>🔗</span> Copiar link
+      </button>
+
+      <button class="btn-outline" style="display:flex;align-items:center;justify-content:center;gap:8px">
+        <span>↗️</span> Compartir de otra forma
+      </button>
+
+      <div class="link-preview">mp.me/fondos/bariloche-2024</div>
+    </div>
+  </div>
+
+  <div style="padding:0 20px 24px;background:white">
+    <button class="ir-fondo-link" id="ir-fondo-btn" style="font-weight:700;font-size:15px">
+      Ir al fondo →
+    </button>
+  </div>
+</div>
